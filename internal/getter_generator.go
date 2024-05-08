@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/iancoleman/strcase"
-	"github.com/moznion/gonstructor/internal/constructor"
+	"github.com/jj-style/gonstructor/internal/constructor"
 	g "github.com/moznion/gowrtr/generator"
 )
 

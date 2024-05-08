@@ -1,4 +1,4 @@
-module github.com/moznion/gonstructor
+module github.com/jj-style/gonstructor
 
 go 1.19
 

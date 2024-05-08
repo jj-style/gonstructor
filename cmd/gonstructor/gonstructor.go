@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/iancoleman/strcase"
-	"github.com/moznion/gonstructor/internal"
-	"github.com/moznion/gonstructor/internal/constructor"
+	"github.com/jj-style/gonstructor/internal"
+	"github.com/jj-style/gonstructor/internal/constructor"
 	g "github.com/moznion/gowrtr/generator"
 )
 

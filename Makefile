@@ -2,7 +2,7 @@ PKGS := $(shell go list ./...)
 PKGS_WITHOUT_TEST := $(shell go list ./... | grep -v "gonstructor/internal/test")
 RELEASE_DIR=dist
 REVISION=$(shell git rev-parse --verify HEAD)
-INTERNAL_PACKAGE=github.com/moznion/gonstructor/internal
+INTERNAL_PACKAGE=github.com/jj-style/gonstructor/internal
 
 check: test lint vet fmt-check
 check-ci: test vet fmt-check
